@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        int a = scan.nextInt(); //Input first integer
+        
+        int b=scan.nextInt();// Input second integer
+        
+        int c=scan.nextInt();// Input third integer
+
+        System.out.println(a); //Output First integer
+        System.out.println(b);// Output second integer
+        System.out.println(c);// Output third integer
+        scan.close(); //Closing scan
+    }
+}
