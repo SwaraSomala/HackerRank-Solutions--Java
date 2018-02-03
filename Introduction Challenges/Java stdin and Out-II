@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt(); //Input integer
+        Double d=scan.nextDouble(); //Input double
+        scan.nextLine(); //Work around for the issue faced with nextLine() so that it will not skip the string input
+        String s=scan.nextLine();//Input String
+
+        System.out.println("String: " + s); //Output String
+        System.out.println("Double: " + d); //Output Double
+        System.out.println("Int: " + i); //Output Integer
+        scan.close();
+    }
+}
